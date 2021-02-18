@@ -1,0 +1,66 @@
+*{
+  font-family: Avenir, sans-serif;
+}
+
+.box_formulaire .form_title{
+    display: grid;
+    text-align: center;
+    padding: 50px 0 50px;
+    text-transform: uppercase; 
+    font-weight: 800;
+    font-size: 50px;
+}
+.container{
+    display: grid;
+    justify-content: center;
+    width:955px;
+    margin:20px auto;
+    padding-top:20px;
+    
+    
+}
+form{
+  border-radius:2px;
+  padding:20px 30px;
+  box-shadow:0 0 15px;
+  font-size:14px;
+  font-weight:bold;
+ 
+}
+.container .champ{
+  margin-bottom: 10px;
+}
+input{
+  width:100%;
+  height:20px;
+  margin-top:5px;
+  margin-bottom: 20px;
+  border:1px solid #999;
+  border-radius:3px;
+  padding:5px;
+}
+.box_formulaire button{
+    display: grid;
+    height:30px;
+    width: 150px;
+    text-align: center;
+    margin-left: 120px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+button[type=submit]{
+  border:1px solid white;
+  font-family: serif;
+  font-Weight:bold;
+  font-size:18px;
+  padding: 5px;
+  
+}
+textarea{
+  width:100%;
+  height:80px;
+  margin-top:5px;
+  border-radius:3px;
+  padding:5px;
+  resize:none;
+}
